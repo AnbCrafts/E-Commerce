@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+.sub-main{
+  padding: 10px 50px;
+}
+a,
+button,
+input,
+textarea,
+svg,
+img,
+div,
+span {
+  transition: all 0.25s ease-in-out;
+}
+input,
+textarea,
+select {
+  border: 1.5px solid #d1d5db; /* light gray border */
+  border-radius: 6px;
+  padding: 0.5rem 0.8rem;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: coral;            /* highlight color */
+  box-shadow: 0 0 4px rgba(255, 127, 80, 0.4);
+}
+::placeholder {
+  color: #9ca3af;                 /* neutral gray */
+  opacity: 0.9;
+  font-style: italic;
+}
+
+button {
+  background-color: coral;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff7f50cc;    /* slightly darker coral */
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(255, 127, 80, 0.3);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:disabled,
+input:disabled {
+  background-color: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+input,
+button,
+select,
+textarea {
+  transition: all 0.2s ease;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px white inset;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  -webkit-text-fill-color: #333;
+}
+
+.clip-shape {
+ /* clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%); */
+ /* clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); */
+ /* clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 0 1%); */
+ /* clip-path: polygon(50% 0%, 100% 0, 100% 100%, 17% 70%, 0 0); */
+ /* clip-path: polygon(57% 25%, 100% 0, 100% 100%, 8% 73%, 0 0); */
+ /* clip-path: polygon(56% 17%, 100% 0, 100% 100%, 8% 73%, 0 0); */
+ /* clip-path: polygon(56% 17%, 100% 0, 100% 100%, 0 75%, 0 0); */
+ clip-path: polygon(56% 0, 100% 0, 100% 100%, 0 75%, 0 0);
+}
+.clip-shape2{
+  clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 0);
+}
