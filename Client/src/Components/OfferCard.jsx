@@ -1,5 +1,5 @@
 import React from "react";
-import { Clock, Tag, ArrowRight, Percent, WarningCircle } from "phosphor-react";
+import { Clock, Tag, ArrowRight, Percent, WarningCircle } from "@phosphor-icons/react";
 
 const OfferCard = ({ offer }) => {
   // Calculate days remaining with safety check

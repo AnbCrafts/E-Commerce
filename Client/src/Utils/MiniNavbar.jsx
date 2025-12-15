@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { House, ShoppingCart, Bell, User, Heart } from "phosphor-react";
+import { House, ShoppingCart, Bell, User, Heart } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
 
 export default function MiniNavbar() {

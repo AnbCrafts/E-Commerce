@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrench } from 'phosphor-react';
+import { Wrench } from '@phosphor-icons/react';
 import { Link } from 'react-router-dom';
 
 const Logo = ({ variant = "dark" }) => {

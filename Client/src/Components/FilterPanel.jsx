@@ -1,5 +1,5 @@
 import React from "react";
-import { CaretDown, X } from "phosphor-react";
+import { CaretDown, X } from "@phosphor-icons/react";
 
 const FilterPanel = ({ filters, selectedFilters, onChange }) => {
   

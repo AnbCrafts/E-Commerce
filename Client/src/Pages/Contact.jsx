@@ -11,7 +11,7 @@ import {
   Receipt, 
   Wrench, 
   Headset 
-} from "phosphor-react";
+} from "@phosphor-icons/react";
 import Header from '../Components/Header';
 
 const Contact = () => {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 // CHANGED: LogIn -> SignIn
-import { Wrench, Compass, SignIn, List, X } from "phosphor-react"; 
+import { Wrench, Compass, SignIn, List, X } from "@phosphor-icons/react"; 
 import Logo from "./Logo"; 
 
 const Header = ({ onSignInClick }) => {

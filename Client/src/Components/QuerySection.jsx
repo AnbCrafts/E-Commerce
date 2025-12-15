@@ -6,7 +6,7 @@ import {
   PhoneCall, 
   CheckCircle,
   SpinnerGap 
-} from "phosphor-react";
+} from "@phosphor-icons/react";
 
 const QuerySection = () => {
   const [loading, setLoading] = useState(false);

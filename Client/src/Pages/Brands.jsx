@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { brandsData } from '../TempDB/BrandsDB';
 import FilterPanel from '../Components/FilterPanel';
 import { brandFilters } from '../TempDB/BrandsFilterDB';
-import { MagnifyingGlass, Funnel, ArrowRight, Globe } from "phosphor-react";
+import { MagnifyingGlass, Funnel, ArrowRight, Globe } from "@phosphor-icons/react";
 
 const Brands = () => {
   const [selectedFilters, setSelectedFilters] = useState({});

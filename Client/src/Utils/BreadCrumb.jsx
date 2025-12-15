@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
-import { CaretRight, House } from "phosphor-react";
+import { CaretRight, House } from "@phosphor-icons/react";
 
 const Breadcrumb = () => {
   const location = useLocation();

@@ -14,7 +14,7 @@ import {
   Phone,
   MapPin,
   Wrench
-} from "phosphor-react";
+} from "@phosphor-icons/react";
 
 const Footer = () => {
   return (

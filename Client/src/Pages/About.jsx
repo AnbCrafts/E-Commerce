@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Trophy, GlobeHemisphereWest, UsersThree, ShieldCheck, Factory, TrendUp } from "phosphor-react";
+import { Trophy, GlobeHemisphereWest, UsersThree, ShieldCheck, Factory, TrendUp } from "@phosphor-icons/react";
 import { assets } from '../assets/assets'; // Assuming you have this
 import Header from '../Components/Header';
 

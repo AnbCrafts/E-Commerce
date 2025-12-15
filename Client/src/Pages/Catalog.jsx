@@ -8,7 +8,7 @@ import {
   CheckSquare, 
   ShoppingCart,
   Star
-} from "phosphor-react";
+} from "@phosphor-icons/react";
 
 // --- MOCK DATA (Move to a DB file later) ---
 const PRODUCTS = [

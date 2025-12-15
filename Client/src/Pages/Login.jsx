@@ -11,7 +11,7 @@ import {
   Tag,
   Headset
 } from "lucide-react";
-import { Wrench, Lightning, Package } from 'phosphor-react';
+import { Wrench, Lightning, Package } from '@phosphor-icons/react';
 import { motion, AnimatePresence } from "framer-motion";
 import { assets } from '../assets/assets';
 import Footer from '../Components/Footer';

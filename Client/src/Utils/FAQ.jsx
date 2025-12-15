@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CaretDown, ChatCircleText, Lifebuoy } from "phosphor-react";
+import { CaretDown, ChatCircleText, Lifebuoy } from "@phosphor-icons/react";
 
 const faqs = [
   {

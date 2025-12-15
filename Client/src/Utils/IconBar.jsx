@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MapPin, Phone, Lifebuoy, Question, EnvelopeSimple } from "phosphor-react";
+import { MapPin, Phone, Lifebuoy, Question, EnvelopeSimple } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
 
 export default function IconBar() {

@@ -8,7 +8,7 @@ import {
   ClockCounterClockwise, 
   Truck, 
   Info 
-} from "phosphor-react";
+} from "@phosphor-icons/react";
 import Breadcrumb from "./BreadCrumb";
 
 export default function ToolJunctionLayout() {

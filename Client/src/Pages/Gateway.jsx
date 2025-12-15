@@ -12,7 +12,7 @@ import {
   Wrench,
   ShieldCheck,
   Lightning
-} from "phosphor-react";
+} from "@phosphor-icons/react";
 import { Link } from 'react-router-dom';
 import { assets } from '../assets/assets'; // Keep your assets import
 import Footer from '../Components/Footer'; // Keep your Footer

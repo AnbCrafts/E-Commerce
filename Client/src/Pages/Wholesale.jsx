@@ -9,7 +9,7 @@ import {
   EnvelopeSimple, 
   Phone,
   DownloadSimple
-} from "phosphor-react";
+} from "@phosphor-icons/react";
 
 const Wholesale = () => {
   const [formData, setFormData] = useState({
